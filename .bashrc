@@ -25,5 +25,6 @@ function update_ps1 {
     _VENV_ENV=""
   fi
   PS1="${_VENV_ENV}$(_CONDA_ENV}${_YELLOW}${_BRANCH}${_GREEN}\u${_RED}@${_BLUE}\w${_RESET} ${_BOLD}\$ ${_RESET}"
+}
 
   PROMPT_COMMAND="upadate_ps1"
